@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgFileSave"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:id="@+id/textTimeSave"
+        android:text="Time:"
+        android:layout_toRightOf="@id/imgFileSave"
+        android:layout_alignTop="@+id/imgFileSave"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:id="@+id/textMovesSave"
+        android:text="Moves"
+        android:layout_below="@+id/textTimeSave"
+        android:layout_toRightOf="@id/imgFileSave"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:id="@+id/txtTimeSave"
+        android:layout_toRightOf="@+id/textTimeSave"
+        android:layout_alignTop="@+id/imgFileSave"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:id="@+id/txtMovesSave"
+        android:layout_toRightOf="@+id/textMovesSave"
+        android:layout_below="@id/txtTimeSave"/>
+
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imgFileSave"
+        android:layout_toRightOf="@id/txtTimeSave"
+        android:gravity="right|center_vertical"
+        android:paddingRight="20dp"
+        android:text="adfadsf" />
+</RelativeLayout>

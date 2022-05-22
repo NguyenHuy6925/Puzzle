@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_puzzle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BD8E01"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".PuzzleActivity">
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left|center"
+        android:textStyle="bold"
+        android:text="Time:" />
+
+    <TextView
+        android:id="@+id/textTime"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:background="#BD8E01"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtMoves"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Moves:" />
+
+    <TextView
+        android:id="@+id/textMoves"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:background="#BD8E01"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgZoom"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp" />
+
+    <GridView
+        android:id="@+id/GV"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+
+    <ImageButton
+        android:id="@+id/btnSave"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="#BD8E01"
+        android:scaleType="fitCenter"
+        android:src="@drawable/save_icon" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="#BD8E01"
+        android:hapticFeedbackEnabled="false"
+        android:scaleType="centerInside"
+        android:src="@drawable/home_icon" />
+</FrameLayout>
