@@ -226,6 +226,7 @@ public class PuzzleActivity extends AppCompatActivity {
                 imgZoom.animate().setDuration(200);
             }
         });
+
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
